@@ -6,5 +6,3 @@ class Test:
 
 if __name__ == '__main__':
     Test().f()
-#End
-#

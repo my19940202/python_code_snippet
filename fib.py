@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# a, b = b, a + b 即为 a = b;b = a + b
-# 
+# 斐波那契的生成
 # 
 def fib(max):
     n, a, b = 0, 0, 1

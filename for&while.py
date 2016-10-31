@@ -1,23 +1,20 @@
-
+# list 遍历
 names = ['Michael', 'Bob', 'Tracy']
 for name in names:
 	print	'Hello, '+ name + '!'
 
-'''
-sum = 0
-for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
-    sum = sum + x
-print(sum)
-'''
-
-listnum = list(range(101))
-# print listnum
-sum = 0
-for x in xrange(1,101):
-	sum += x
-print sum
+# dict 遍历
+myset = {
+    'a': 1234,
+    'c': 34,
+    'b': '312',
+    'd': 312
+}
+for key in myset:
+    print key, myset[key]
 
 
+# while 使用
 sum = 0
 n = 100
 while n > 0:
