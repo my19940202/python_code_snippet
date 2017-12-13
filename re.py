@@ -8,5 +8,13 @@ def main():
     nums = numsPattern.findall(str1)
     print nums
 
+    # match
+    print re.match('^j', str1)
+
+def matchDomain(str):
+    domain = ''
+
+    return domain
+
 if __name__ == '__main__':
     main()

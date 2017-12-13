@@ -14,6 +14,14 @@ def fact(n):
 
 # print fact(5)
 
+
+
+def func(log):
+	print fact(log)
+
+# func(3)
+
+
 # 空函数
 def fuck(log):
 	pass
